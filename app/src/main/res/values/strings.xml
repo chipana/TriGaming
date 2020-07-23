@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">TriGaming</string>
+
+    <string name="action_search">Buscar</string>
+    <string name="action_settings">Opções</string>
+    <string name="tabmenu_news">Noticias</string>
+    <string name="price_asc">Preço crescente</string>
+    <string name="price_desc">Preço decrescente</string>
+    <string name="price_free">Gratuito</string>
+    <string name="resultados_steam">5</string>
+    <string name="resultados_ggate">5</string>
+</resources>

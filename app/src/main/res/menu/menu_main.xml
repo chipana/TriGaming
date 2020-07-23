@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_search"
+        android:icon="@drawable/ic_search_black_24dp"
+        android:title="@string/action_search"
+        app:showAsAction="always|collapseActionView"
+        app:actionViewClass="android.support.v7.widget.SearchView"/>
+    <item android:id="@+id/action_filter"
+        android:icon="@drawable/ic_menu_filter"
+        android:title="Filtrar"
+        android:enabled="true"
+        app:showAsAction="ifRoom"
+        android:visible="false">
+        <menu>
+            <item
+                android:id="@+id/asc"
+                app:showAsAction="ifRoom"
+                android:title="@string/price_asc"/>
+            <item
+                android:id="@+id/desc"
+                app:showAsAction="ifRoom"
+                android:title="@string/price_desc"/>
+            <item
+                android:id="@+id/free"
+                app:showAsAction="ifRoom"
+                android:title="@string/price_free"/>
+        </menu>
+    </item>
+    <item android:id="@+id/action_settings"
+        android:icon="@drawable/ic_more_vert_black_24dp"
+        android:title="@string/action_settings"
+        app:showAsAction="never"/>
+</menu>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Plataformas de busca">
+        <SwitchPreference
+            android:defaultValue="@bool/busca_steam"
+            android:key="busca_steam"
+            android:summary="Buscar pela plataforma Steam"
+            android:title="Busca Steam" />
+        <EditTextPreference
+            android:defaultValue="@string/resultados_steam"
+            android:key="resultados_steam"
+            android:inputType="number"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="Resultados Steam"
+            android:summary="Número de resultados apresentado pela plataforma Steam"/>
+        <SwitchPreference
+            android:defaultValue="@bool/busca_ggate"
+            android:key="busca_ggate"
+            android:summary="Buscar pela plataforma GamersGate"
+            android:title="Busca GamersGate" />
+        <EditTextPreference
+            android:defaultValue="@string/resultados_ggate"
+            android:key="resultados_ggate"
+            android:inputType="number"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="Resultados GamersGate"
+            android:summary="Número de resultados apresentado pela plataforma GarmersGate" />
+    </PreferenceCategory>
+</PreferenceScreen>
